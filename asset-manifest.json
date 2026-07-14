@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reggie-portfolio/static/css/main.e89cecd1.css",
+    "main.js": "/reggie-portfolio/static/js/main.65087da3.js",
+    "index.html": "/reggie-portfolio/index.html",
+    "main.e89cecd1.css.map": "/reggie-portfolio/static/css/main.e89cecd1.css.map",
+    "main.65087da3.js.map": "/reggie-portfolio/static/js/main.65087da3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e89cecd1.css",
+    "static/js/main.65087da3.js"
+  ]
+}
