@@ -174,10 +174,24 @@ const MainArea = ({ onMainRef, currentSection, onHireMe, onNavigate }) => {
     return () => el.removeEventListener('scroll', onScroll);
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Contact:', form);
-    setSubmitted(true);
+    try {
+      const res = await fetch('https://formspree.io/f/xjgnkypd', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          name:    form.name,
+          email:   form.email,
+          company: form.company,
+          message: form.message,
+        }),
+      });
+      if (res.ok) setSubmitted(true);
+      else console.error('Formspree error:', await res.text());
+    } catch (err) {
+      console.error('Submit failed:', err);
+    }
   };
 
   return (
