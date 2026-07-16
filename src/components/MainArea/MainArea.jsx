@@ -92,17 +92,18 @@ const experiences = [
 
 const projects = [
   {
-    icon: '🏀', bg: '#1a2535',
-    name: 'Chicago Bulls Analytics',
-    desc: 'End-to-end data pipeline pulling raw NBA API data into structured datasets. React dashboard with shot efficiency breakdowns, lineup scores, and game-by-game trend charts.',
-    tag: 'Python · SQL · React',
-  },
-  {
     icon: '🚢', bg: '#1a3d2e',
     name: 'Nuvy Platform',
     desc: 'Full-stack deployment platform built in Golang and React. Upload a ZIP or paste a GitHub repo URL — Nuvy builds and deploys it to GitHub Pages via the GitHub API and returns a live URL in under 60 seconds.',
     tag: 'Golang · React · GitHub API',
     url: 'https://nuvy-peach.vercel.app',
+  },
+  {
+    icon: '🎨', bg: '#2d1a3d',
+    name: 'FinePoint Designs',
+    desc: 'Full marketing site for a web design studio. Dark editorial design, Spotify-style components, full SEO stack, GitHub Pages deployment.',
+    tag: 'React · SCSS',
+    url: 'https://finepo-nt.github.io/FinePointDesigns-Site/',
   },
   {
     icon: '🏗️', bg: '#0f2a1a',
@@ -117,18 +118,10 @@ const projects = [
     tag: 'Golang · AWS · Bash',
   },
   {
-    icon: '🎵', bg: '#1a1a3d',
-    name: 'Personal Portfolio',
-    desc: 'Spotify-inspired portfolio with career Wrapped, scroll-tracked player, keyboard navigation, and About the engineer section. Built in React and deployed to GitHub Pages.',
-    tag: 'React · SCSS',
-    url: 'https://rtjohnson0.github.io/ProfessionalPortfolio',
-  },
-  {
-    icon: '🎨', bg: '#2d1a3d',
-    name: 'FinePoint Designs',
-    desc: 'Full marketing site for a web design studio. Dark editorial design, Spotify-style components, full SEO stack, GitHub Pages deployment.',
-    tag: 'React · SCSS',
-    url: 'https://finepo-nt.github.io/FinePointDesigns-Site/',
+    icon: '🏀', bg: '#1a2535',
+    name: 'Chicago Bulls Analytics',
+    desc: 'End-to-end data pipeline pulling raw NBA API data into structured datasets. React dashboard with shot efficiency breakdowns, lineup scores, and game-by-game trend charts.',
+    tag: 'Python · SQL · React',
   },
   {
     icon: '⚙️', bg: '#1a2d3d',
