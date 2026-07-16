@@ -100,8 +100,9 @@ const projects = [
   {
     icon: '🚢', bg: '#1a3d2e',
     name: 'Nuvy Platform',
-    desc: 'Live deployed app that automates personal project launches. Golang API, React frontend, GitHub Actions CI/CD. Takes a user-uploaded app and provisions the full AWS hosting stack via Terraform.',
-    tag: 'Golang · AWS · Terraform',
+    desc: 'Full-stack deployment platform built in Golang and React. Upload a ZIP or paste a GitHub repo URL — Nuvy builds and deploys it to GitHub Pages via the GitHub API and returns a live URL in under 60 seconds.',
+    tag: 'Golang · React · GitHub API',
+    url: 'https://nuvy-peach.vercel.app',
   },
   {
     icon: '🏗️', bg: '#0f2a1a',
@@ -116,11 +117,18 @@ const projects = [
     tag: 'Golang · AWS · Bash',
   },
   {
+    icon: '🎵', bg: '#1a1a3d',
+    name: 'Personal Portfolio',
+    desc: 'Spotify-inspired portfolio with career Wrapped, scroll-tracked player, keyboard navigation, and About the engineer section. Built in React and deployed to GitHub Pages.',
+    tag: 'React · SCSS',
+    url: 'https://rtjohnson0.github.io/ProfessionalPortfolio',
+  },
+  {
     icon: '🎨', bg: '#2d1a3d',
     name: 'FinePoint Designs',
     desc: 'Full marketing site for a web design studio. Dark editorial design, Spotify-style components, full SEO stack, GitHub Pages deployment.',
     tag: 'React · SCSS',
-    url: 'https://www.finepointdesigns.com',
+    url: 'https://finepo-nt.github.io/FinePointDesigns-Site/',
   },
   {
     icon: '⚙️', bg: '#1a2d3d',

@@ -14,12 +14,12 @@ const PlusIcon = () => (
 );
 
 const libItems = [
-  { icon: '🏗️', name: 'Terraform Provider',  sub: 'Project · Golang',    bg: '#1a3d2e' },
-  { icon: '⚙️', name: 'CI/CD Framework',      sub: 'Project · DevOps',   bg: '#1a2d3d' },
-  { icon: '🎨', name: 'FinePoint Designs',    sub: 'Project · React',    bg: '#2d1a3d' },
-  { icon: '☁️', name: 'AWS Architecture',     sub: 'Skill · Certified',  bg: '#3d2a1a' },
-  { icon: '🚀', name: 'Red Ventures',         sub: 'Experience',         bg: '#1a3d2e' },
-  { icon: '👨‍🏫', name: 'Road to Hire',       sub: 'Experience',         bg: '#1a2535' },
+  { icon: '🏗️', name: 'Terraform Provider',  sub: 'Project · Golang',              bg: '#1a3d2e' },
+  { icon: '🚢', name: 'Nuvy Platform',       sub: 'Live · nuvy-peach.vercel.app',  bg: '#1a3d2e' },
+  { icon: '🎨', name: 'FinePoint Designs',   sub: 'Live · finepo-nt.github.io',    bg: '#2d1a3d' },
+  { icon: '☁️', name: 'AWS Architecture',    sub: 'Skill · Certified',             bg: '#3d2a1a' },
+  { icon: '🚀', name: 'Red Ventures',        sub: 'Experience',                    bg: '#1a3d2e' },
+  { icon: '👨‍🏫', name: 'Road to Hire',      sub: 'Experience',                    bg: '#1a2535' },
 ];
 
 const Sidebar = () => {
