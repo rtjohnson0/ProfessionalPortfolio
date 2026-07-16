@@ -149,7 +149,7 @@ const skills = [
 const contactLinks = [
   { icon: '📧', label: 'Email',    value: 'reggiejohnson1997@gmail.com',              href: 'mailto:reggiejohnson1997@gmail.com'                                    },
   { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/reginald-johnson-jr',      href: 'https://www.linkedin.com/in/reginald-johnson-jr-9aa348120'             },
-  { icon: '🐙', label: 'GitHub',   value: 'github.com/FinePo-nt',                     href: 'https://github.com/FinePo-nt'                                          },
+  { icon: '🐙', label: 'GitHub',   value: 'github.com/rtjohnson0',              href: 'https://github.com/rtjohnson0'                                         },
   { icon: '📍', label: 'Location', value: 'Charlotte, NC 28277 — open to relocate',  href: null                                                                    },
 ];
 
